@@ -1,5 +1,5 @@
 Mi primer programa
-------------------
+==================
 
 .. figure:: zx81.gif
    :scale: 80 %
@@ -25,7 +25,7 @@ Esa era la primera tarea que tuve que cumplir como programador.  Asumiré que us
 Vamos a solucionar este problema usando un lenguaje de programación moderno, vamos a escribir una página web (en HTML) y un programa en JavaScript para resolverlo. Yo lo tuve que hacer en `BASIC <http://es.wikipedia.org/wiki/BASIC>`_, que es un lenguaje bastante antiguo, más adelante hablaremos de los lenguajes de programación y por qué hay tantos, por ahora me gustaría que sigan los pasos que les voy a mostrar. No se asusten, probablemente no entiendan mucho de lo que van a hacer, pero ya les voy a explicar  lo mejor que pueda,  qué estamos haciendo.
 
 Preparación
-***********
+-----------
 
 Nuestro programa será construido en  JavaScript, que es un lenguaje que se encuentra habilitado en todos los navegadores de internet. Ahora bien, para poder ejecutar un programa javascript debemos colocarlo dentro de una página HTML. Vamos a hacer esto porque nos permite usar un lenguaje que está disponible en la mayoría de los computadores personales del mundo conectados a internet.
 
@@ -33,7 +33,9 @@ Lo primero que vamos a hacer es construir una página web de soporte de nuestros
 
 Vamos a abrir un archivo que llamaremos “js_tester.html“, que es un archivo de plantilla que usaremos para probar los programas en javascript que vamos a empezar a escribir en este curso.
 
-En el editor de texto escriban este código y guárdenlo en su disco duro como js-tester.html. ::
+En el editor de texto escriban este código y guárdenlo en su disco duro como js-tester.html:
+
+.. code-block:: html
 
 	<head>
 
@@ -70,7 +72,7 @@ Por supuesto si presionan el botón no sucederá nada pues no hemos escrito nues
 
 
 Programando
-***********
+-----------
 
 Según el diccionario un programa corresponde a “cada una de las operaciones que, en un orden determinado, ejecutan ciertas máquinas¨. Bueno, eso es lo que vamos a hacer ahora, escribir una secuencia de operaciones para que el computador las ejecute. El programa resultante nos permitirá convertir números de grados farenheit a celsius.
 
@@ -91,7 +93,9 @@ Resulta que esta secuencia de acciones tiene la estructura de casi todos los pro
 
 Un programa típico toma un conjunto de datos de entrada, los procesa ejecutando una secuencia de instrucciones y emite un conjunto de datos de salida. El paso 1 procesa la entrada, el paso 2 realiza el cálculo de conversión y el paso 3 genera la salida del programa.
 
-Ahora vamos a traducir todo esto en un programa en JavaScript: ::
+Ahora vamos a traducir todo esto en un programa en JavaScript: 
+
+.. code-block:: javascript
 
 	function programa() { 
 
@@ -113,25 +117,33 @@ Después de declarar nuestra función colocamos las instrucciones entre dos par�
 
 Notaran que transcribí los 3 pasos que habíamos escrito antes y les coloqué delante dos barras diagonales (//), esa es la manera de insertar comentarios en un programa javascript. Los comentarios son ignorados por el computador cuando ejecuta el programa, pero nos sirven a los programadores a entender mejor el programa.
 
-La instrucción en la linea 4 es bastante compleja:
+La instrucción en la linea 4 es bastante compleja: 
 
-var F = prompt("Ingrese la temperatura en grados farenheit", "77");
+.. code-block:: javascript
+
+	var F = prompt("Ingrese la temperatura en grados farenheit", "77");
 
 La palabra clave var nos permite declara una variable, en este caso la variable F. Ya hablaremos de las variables en más detalle en futuros artículos, por ahora debes saber que una variable es como un casillero en la memoria del computador donde guardaremos un valor,. El valor lo obtenemos al ejecutar otra función llamada prompt(). Esta es una función que está  disponible en JavaScript y  que nos permite mostrar una ventana donde el usuario puede ingresar un valor. Esta función recibe dos argumentos, en este caso el texto “Ingrese la temperatura en grados farenheit” y el valor “77″, 77 es un valor que usaremos por omisión en nuestro cálculo. La función prompt propone el valor 77 al usuario y este lo puede cambiar.
 
-Luego ejecutamos el cálculo de conversión a grados celsius usando la fórmula estándar para esta conversión: ::
+Luego ejecutamos el cálculo de conversión a grados celsius usando la fórmula estándar para esta conversión: 
+
+.. code-block:: javascript
 
 	var C = (F - 32) * 5 / 9;
 
 Acá nuevamente declaramos otra variable, la variable C en donde guardamos el resultado de la derecha. Fíjense que en la ecuación participa la variable F que contendrá el valor solicitado al usuario mediante la función prompt().
 
-Por último manejamos la salida en la linea 10 del programa: ::
+Por último manejamos la salida en la linea 10 del programa: 
+
+.. code-block:: javascript
 
 	alert("La temperatura " + F + " expresada en grados celsius es: "+ C);
 
 Para mostrar el resultado y generar la salida de nuestro programa, usamos la función javascript alert(), que despliega una ventana con el mensaje. Fíjense que tenemos texto que se mezcla con las variables F y C usando el operador +, esto corresponde a lo que se llama concatenación y es algo que aprenderemos más adelante. Lo importante ahora es que no aparecen las letras F y C, sino que se muestra los valores de las variables F y C.
 
-Para poder probar todo esto debemos colocar el texto dentro del archivo js-tester.html, para esto copien el código completo de programa()  debajo de donde dice “// ACA VAN A IR NUESTROS PROGRAMAS, el archivo js-tester.html debería quedar así: ::
+Para poder probar todo esto debemos colocar el texto dentro del archivo js-tester.html, para esto copien el código completo de programa()  debajo de donde dice “// ACA VAN A IR NUESTROS PROGRAMAS, el archivo js-tester.html debería quedar así:
+
+.. code-block:: html
 
 	<head>
 	<script type="text/javascript">
@@ -173,7 +185,7 @@ Es probable que aún no entiendas mucho, te sugiero probar diversas alternativas
 Experimenta con este programa y resuelve los ejercicios que vienen a continuación.
 
 Ejercicios
-**********
+----------
 
 	#. Escribe un programa que convierta de celsius a farenheit.
 	#. Escribe un programa que sume 2 números.
