@@ -1,3 +1,5 @@
+.. _mi-primer-programa:
+
 Mi primer programa
 ==================
 

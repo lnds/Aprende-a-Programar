@@ -15,7 +15,7 @@ Acá puedes. Este no es un curso de programación convencional, debo advertirte.
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    	
    primera-parte/index

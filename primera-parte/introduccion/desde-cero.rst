@@ -1,3 +1,5 @@
+.. _partir-desde-cero:
+
 Partir desde cero
 =================
 
@@ -118,9 +120,9 @@ Dominar la notación binaria y hexadecimal es uno de los conocimientos básicos 
 Ejercicios
 ----------
 
-
 	#. ¿A cuál número decimal corresponde el siguiente número binario: 101010101010?
 
-	#. Investiga cómo se suma, multiplica, resta y divide en base decimal y ejercita esas operaciones, ¿qué ventajas le ves a este método desde el punto de los primeros creadores del computador?
+	#. cómo se suma, multiplica, resta y divide en base decimal y ejercita esas operaciones, ¿qué ventajas le ves a este método desde el punto de los primeros creadores del computador?
 
 	#. Averigua que es el sistema octal y que ventajas podría tener para un programador.
+
