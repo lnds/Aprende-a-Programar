@@ -19,7 +19,7 @@ Números Binarios
    
 El gran matemático Leibnitz lo `explicó así <http://www.leibniz-translations.com/binary.htm>`_ en 1703: 
 
-.. figure:: TablaBinariosLeibniz.jpg
+.. figure:: /_static/TablaBinariosLeibniz.jpg
    :scale: 70 %
    :alt: La tabla de los números binarios de Leibniz (año 1703)
    :align: right
@@ -100,7 +100,7 @@ La ventaja de usar estos nibbles es que facilita la transformación, y la visual
 
 Veamos, FF sería 15*16 + 15 = 255. Pero sabemos que F son cuatro unos seguidos, así que FF en binario es 11111111. Otro ejemplo, A5A5, sería 1010 0101 1010 0101.
 
-.. figure:: matriz_de_bits.png
+.. figure:: /_static/matriz_de_bits.png
    :scale: 100 %
    :alt: Matriz de 8 x 8 bits representando una L
    :align: right

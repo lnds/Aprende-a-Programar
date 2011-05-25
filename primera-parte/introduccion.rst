@@ -1,7 +1,7 @@
 Mi primer programa
 ==================
 
-.. figure:: zx81.gif
+.. figure:: /_static/zx81.gif
    :scale: 80 %
    :alt: Sinclair ZX-81
    :align: right
@@ -52,7 +52,7 @@ En el editor de texto escriban este código y guárdenlo en su disco duro como j
 Acá está la imagen tomada en mi PC usando Notepad++ (click para agrandar):
 
 
-.. figure:: js-tester.png
+.. figure:: /_static/js-tester.png
    :scale: 50 %
    :alt: js-tester.html editado en Notepad++ (click para agrandar)
    :align: center
@@ -61,7 +61,7 @@ Acá está la imagen tomada en mi PC usando Notepad++ (click para agrandar):
 
 Ustedes pueden visualizar esta página web desde su browser, en mi caso con Chrome:
 
-.. figure:: js-tester-en-browser.png
+.. figure:: /_static/js-tester-en-browser.png
    :scale: 50 %
    :alt: Visualizando js-tester.html en un navegador web (click para agrandar)
    :align: center
@@ -86,7 +86,7 @@ Escribamos la secuencia de acciones que se precisan para poder cumplir con el re
 
 Resulta que esta secuencia de acciones tiene la estructura de casi todos los programas:
 
-.. figure:: EstructuraPrograma.png
+.. figure:: /_static/EstructuraPrograma.png
    :scale: 70 %
    :alt: 
    :align: center
@@ -171,7 +171,7 @@ Para poder probar todo esto debemos colocar el texto dentro del archivo js-teste
 
 Acá va una copia de la pantalla del editor en mi PC:
 
-.. figure:: js-tester-primer-programa3.png
+.. figure:: /_static/js-tester-primer-programa3.png
    :scale: 70 %
    :alt: js-tester.html modificado para incluir mi primer programa (click para agrandar)
    :align: center
