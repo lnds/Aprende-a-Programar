@@ -1,5 +1,5 @@
-Código
-======
+3. Código
+=========
 
 Tienes unos 10 años y tu mejor amigo vive a unos pocos metros de distancia tuya, su ventana y la tuya se enfrentan, así que en la noche puedes conversar con él, hasta que los padres avisan que hay que “apagar la luz y acostarse”.
 ¡Qué lata! No sería genial tener una manera ideal de comunicarse con tu amigo? Bueno, hoy en día los chicos de esa edad tienen un teléfono móvil, pero no muchos padres les permiten gastarse mucho dinero en mensajes SMS, pero imaginen que estamos hablando de chicos de hace unos años atrás, de esos que tenían que ingeniárselas para seguir conversando con sus amiguitos en la noche. Una forma de hacerlo es con linternas.

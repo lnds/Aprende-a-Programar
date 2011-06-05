@@ -1,5 +1,5 @@
-Primeros pasos en Python
-========================
+5. Primeros pasos en Python
+===========================
 
 Vamos a empezar a usar python como nuestro entorno de programación.
 Python provee un ambiente interactivo llamdo IDLE y es el que vamos a usar en nuestros primeros pasos.
@@ -184,6 +184,7 @@ Ahora recordarás que existen los números negativos. Estos se denotan igual que
 	-4  
 	>>> -saldo  
 	-940
+
 Como ves, una variable puede ser usada donde colocas un número, en este caso -saldo es lo mismo que -940 (que es el último valor que tenía la variable saldo).
 
 Cuando usamos estas variables para sumar (o restar) varios valores de una serie las llamamos acumuladores, saldo y suma son acumuladores.
@@ -219,10 +220,10 @@ Ejercicios
 
 	#. Si tienes acceso a python 2 prueba los ejemplos de este capítulo e investiga por qué hay diferencias.
 
-	#. Prueba el operador ** (por ejemplo 2 ** 3) y averigua qué hace.
+	#. Prueba el operador ``**`` (por ejemplo ``2 ** 3``) y averigua qué hace.
 
-	#. Prueba el operador % (por ejemplo, 12 % 10, o 23 % 15) y averigua para que sirve.
+	#. Prueba el operador ``%`` (por ejemplo, ``12 % 10``, o ``23 % 15``) y averigua para que sirve.
 
-	#. Así como existen los operadores += y -= que usamos en nuestros acumuladores existen los operadores *=, /=, **=, //=. Pruébalos.
+	#. Así como existen los operadores ``+=`` y ``-=`` que usamos en nuestros acumuladores existen los operadores ``*=``, ``/=``, ``**=``, ``//=``. Pruébalos.
 
 

@@ -1,5 +1,5 @@
-Comparaciones y expresiones lógicas
-===================================
+6. Comparaciones y expresiones lógicas
+======================================
 
 Volvamos a IDLE y hagamos algunos experimentos. ::
 

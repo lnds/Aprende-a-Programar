@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Aprende a Programar '
-copyright = u'2011, Eduardo Díaz Cortés'
+copyright = u'2011, Eduardo Díaz Cortés (bajo licencia creative commons by-nc-sa 3.0)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

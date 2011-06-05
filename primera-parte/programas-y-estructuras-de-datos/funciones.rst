@@ -1,8 +1,8 @@
 .. highlight:: python
     :linenothreshold: 2
 
-Funciones
-=========
+9. Funciones
+============
 
 En el capítulo anterior aprendimos a construir un clon del ambiente IDLE de Python. La verdad es que el programa resultante tiene sus limitaciones, pues no permite ejecutar todas las instrucciones del lenguaje como lo hace IDLE, pero funciona bastante bien como calculadora. Vamos a expandir ese programa para darle más funcionalidades de calculadora.
 

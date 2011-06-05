@@ -6,18 +6,13 @@
 Aprende a Programar
 ===================
 
-¿Quieres aprender a programar?
-
-Acá puedes. Este no es un curso de programación convencional, debo advertirte. La idea es formar programadores profesionales.
-
-
 
 Contents:
 
 .. toctree::
    :maxdepth: 3
 
-   	
+   prologo	
    primera-parte/index
 
 	

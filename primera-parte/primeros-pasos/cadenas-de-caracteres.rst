@@ -1,5 +1,5 @@
-Cadenas de caracteres
-=====================
+7. Cadenas de caracteres
+========================
 
 Los 140 caracteres que usas para escribir un tweet, el texto que escribes en tu estado en facebook, un mensaje de texto enviado desde tu teléfono móvil, un correo elestrónico, el texto de este post, una novela, una entrada en wikipedia, este mismo párrafo, todos esos son cadenas de caracteres. A una cadena de texto los programadores las llamamos **string**. Cada uno de los elementos de la cadena es un carácter.
 

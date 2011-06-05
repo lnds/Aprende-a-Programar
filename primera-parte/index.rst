@@ -1,5 +1,5 @@
-Primera Parte:
-==============
+Primera Parte
+=============
 
 .. toctree::
    :maxdepth: 2

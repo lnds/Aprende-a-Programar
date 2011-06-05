@@ -1,5 +1,5 @@
-El lenguaje apropiado
-=====================
+4. El lenguaje apropiado
+========================
 
 Elegir el lenguaje apropiado para aprender a programar no es tarea fácil. Cualquier decisión puede ser objetada por diversas razones. En :ref:`mi-primer-programa` usamos javascript pues es, probablemente, el lenguaje de programación más difundido al estar disponible en todo navegador de internet. Sin embargo, aunque javascript es un lenguaje poderoso y se puede desarrollar perfectamente con él (a niveles que muchos programadores profesionales no sospechan), puede no ser el más apropiado para dar nuestros primeros pasos en la programación. Por otro lado, mi objetivo es enseñar buenas prácticas, y tecnologías modernas que están disponibles al programador.
 

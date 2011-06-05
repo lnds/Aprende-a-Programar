@@ -1,7 +1,7 @@
 .. _partir-desde-cero:
 
-Partir desde cero
-=================
+2. Partir desde cero
+====================
 
 
 Cuando nos enseñan a contar en la escuela lo hacen a partir del uno: 1, 2, 3… Si hay una hilera de personas empezamos a contarlas desde 1. Por eso que los matemáticos tienen el conjunto de los números naturales que empieza desde 0: N = {1, 2, 3, 4…..}. Pero en computación las cosas empiezan desde cero.

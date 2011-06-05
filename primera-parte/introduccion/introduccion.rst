@@ -1,7 +1,7 @@
 .. _mi-primer-programa:
 
-Mi primer programa
-==================
+1. Mi primer programa
+=====================
 
 .. figure:: /_static/zx81.gif
    :scale: 80 %

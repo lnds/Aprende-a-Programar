@@ -1,5 +1,5 @@
-Introducción
-------------
+I Introducción
+--------------
 
 .. toctree::
    :maxdepth: 2

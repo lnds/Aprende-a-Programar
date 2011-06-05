@@ -1,5 +1,5 @@
-REPL
-====
+8. REPL
+=======
 
 Hasta ahora hemos usado IDLE, nuestro ambiente interactivo de python, pero no hemos escrito ningún programa, ahora vamos a partir escribiendo un programa bien poderoso: nuestro propio ambiente interactivo de python (una especia de clon de IDLE).
 
@@ -147,7 +147,7 @@ Fíjate que nuestro clon de IDLE usa el símbolo '-->' como prompt. Ahora vamos 
 El resultado puede ser frustrante, porque después de presionar ENTER la pantalla se cierra, y apenas alcanzamos a ver el resultado. Para remediar esto necesitamos completar el paso 4 de nuestro programa.
 
 Loop
-====
+****
 
 
 El paso 4 nos pide volver a ejecutar la secuencia 1, esto producirá un ciclo, es decir, llevará a repetir las instrucciones una y otra vez. Esto es lo que conocemos como un ciclo, bucle o loop.
