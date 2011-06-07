@@ -14,7 +14,7 @@ Contents:
 
    prologo	
    primera-parte/index
-
+   segunda-parte/index
 	
 
 Indices y tablas
