@@ -6,6 +6,8 @@
 
 
    la-maquina-universal
+   codigo-de-maquina
+   cargando-el-codigo-de-maquina
 
 
 
