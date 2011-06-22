@@ -73,27 +73,28 @@ Los nemónicos en nuestro lenguaje ensamblador están resumidos en esta tabla: :
 	6: IMPR
 	7: LEER
 	8: ALM
-	9: RR0
-	10: RR1
-	11: RSUM
-	12: RMUL
-	13: RRES
-	14: RDIV
-	15: AR0
-	16: AR1
-	17: INC
-	18: DEC
-	19: INCR0
-	20: DECR0
-	21: INCR1
-	22: DECR1
-	23: SALTA
-	24: SSC
-	25: SSN
+	9: REC
+	10: RR0
+	11: RR1
+	12: RSUM
+	13: RMUL
+	14: RRES
+	15: RDIV
+	16: AR0
+	17: AR1
+	18: INC
+	19: DEC
+	20: INCR0
+	21: DECR0
+	22: INCR1
+	23: DECR1
+	24: SALTA
+	25: SSC
 	26: SSN
-	27: SRMA
-	28: SRME
-	29: SRIG
+	27: SSP
+	28: SRMA
+	29: SRME
+	30: SRIG
 	
 La definición de cada uno de estos comandos o nemónicos, está en el capítulo anterior.
 
@@ -181,8 +182,8 @@ Ejercicios
 
 El siguiente programa hace lo mismo que el anterior pero de un modo avanzado: ::
 
-	nemonicos = ['ALTO','LIM','ACUM','MUL','RES','DIV','IMPR','LEER','ALM','RR0','RR1','RSUM','RMUL','RRES','RDIV',  
-        'AR0','AR1','INC','DEC','INCR0','DECR0','INCR1','DECR1','SALTA','SSC','SSN','SSN','SRMA','SRME''SRIG']  
+	nemonicos = ['ALTO','LIM','ACUM','MUL','RES','DIV','IMPR','LEER','ALM','REC','RR0','RR1','RSUM','RMUL','RRES','RDIV',  
+        'AR0','AR1','INC','DEC','INCR0','DECR0','INCR1','DECR1','SALTA','SSC','SSN','SSP','SRMA','SRME''SRIG']  
   
 	def traduce(codigo):  
 		return nemonicos.index(codigo) if codigo in nemonicos else int(codigo)  

@@ -132,6 +132,7 @@ Nuestra computadora tendrá las siguientes instrucciones (las abreviaturas van e
 	* IMPRIMIR (IMPR): imprime el valor del acumulador en pantalla.
 	* LEER: lee un valor desde el teclado y lo guarda en el acumulador
 	* ALMACENAR (ALM): almacena el valor del acumulador en la posición de memoria indicada por la siguiente palabra.
+	* RECUPERAR (REC): recupera el valor en la posición de memoria indicada por la siguiente palabra y lo deposita en el acumulador.
 	* RECUPERAR R0 (RR0): almacena el valor en la posición de memoria indicada por la siguiente palabra en el registro R0
 	* RECUPERAR R1 (RR1): almacena el valor en la posición de memoria indicada por la siguiente palabra en el registro R1.
 	
