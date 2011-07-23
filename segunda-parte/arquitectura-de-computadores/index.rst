@@ -9,6 +9,7 @@
    codigo-de-maquina
    cargando-el-codigo-de-maquina
    interpretando-el-codigo-de-maquina
+   dispositivos
 
 
 
